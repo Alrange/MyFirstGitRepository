@@ -138,19 +138,6 @@ def IN():
         randNum = randNum - 1
 
 
-# endTime = int(input("请输入结束时间:"))
-# os.system("clear")
-# winList=[]
-# for i in range(3):
-#     winList.append(WIN())
-#     winList[i].num = i+1
-
-# bizList=[]
-# for i in range(3):
-#     bizList.append(BIZ())
-#     bizList[i].num = i+1
-#     bizList[i].time = (i+1)*2
-
 winList=[]
 for i in range(3):
     winList.append(WIN())
